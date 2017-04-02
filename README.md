@@ -8,4 +8,4 @@ This is a simple page to perform a search on the Yelp Fusion API using an unoffi
 
 Go to the app, fill in the search fields and press search.
 
-The app is located here.
+The app is located [here](https://yelptestwm.herokuapp.com/).

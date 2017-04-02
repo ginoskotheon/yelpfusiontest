@@ -25,7 +25,7 @@ router.get('/results', function(req, res, next){
 
 router.post('/results', function(req, res, next){
   const venue = req.body.place;
-  const location = req.body.loc;
+  const location = req.body.loc || "110 E Houston St, San Antonio, TX 78205";
   const radius = (req.body.radius)*1600 || 5*1600;
   console.log(venue);
   const searchRequest = {
